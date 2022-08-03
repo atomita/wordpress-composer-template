@@ -10,5 +10,5 @@ wget https://raw.github.com/atomita/wordpress-composer-template/master/composer.
 wget https://raw.github.com/atomita/wordpress-composer-template/master/env-example -O .env
 wget https://raw.github.com/atomita/wordpress-composer-template/master/index.php
 composer run-script update-repositories-for-wordpress
-composer require wordpress
+env COMPOSER_PROCESS_TIMEOUT=0 composer install
 ```
