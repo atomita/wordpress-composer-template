@@ -21,6 +21,9 @@
             "plugins/{$name}/": [
                 "type:wordpress-plugin",
                 "type:wordpress-muplugin"
+            ],
+            "themes/{$name}/": [
+                "type:wordpress-theme"
             ]
         }
     },
